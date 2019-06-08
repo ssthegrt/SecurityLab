@@ -1,0 +1,13 @@
+
+UserA, User B and Proy create PKC  (RSA) alon with proxy reencryption key -> Use of RSA.cpp
+in order to create public/private key pair.
+
+User A recieves his cipher text from us : "My name is Parth"
+
+User A then calls the encrypt function using the RSA header file
+
+User A then sends this encrypted data to Proxy
+
+Proxy applies Re-Encryption and sends re-encrypted data to User B
+
+User B decrypts the re-encrypted messae.  
